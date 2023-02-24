@@ -1,0 +1,293 @@
+a:hover {
+    color: #3484bf
+}
+
+#preloader .loader {
+    -webkit-animation: loader 1s linear infinite;
+    animation: loader 1s linear infinite;
+    background: #3484bf
+}
+
+@-webkit-keyframes loader {
+    0% {
+        background: #2cc9a5;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    100% {
+        background: transparent
+    }
+}
+
+@keyframes loader {
+    0% {
+        background: #2cc9a5;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    100% {
+        background: transparent
+    }
+}
+
+section .form-group.form-focused label {
+    color: #2cc9a5
+}
+
+.bg-primary {
+    background-color: #2cc9a5 !important
+}
+
+.text-primary {
+    color: #2cc9a5 !important
+}
+
+blockquote {
+    border-left: 5px solid #2cc9a5
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2cc9a5;
+    border: 1px solid #2cc9a5
+}
+
+.btn-primary:hover {
+    background-color: #2cc9a5;
+    color: #fff;
+    border-color: #2cc9a5
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #2cc9a5;
+    border-color: #2cc9a5;
+    -webkit-box-shadow: 0 0 0 .2rem rgba(40, 187, 255, 0.5);
+    box-shadow: 0 0 0 .2rem rgba(40, 187, 255, 0.5)
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #2cc9a5;
+    color: #fff;
+    border-color: #2cc9a5
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #2cc9a5;
+    color: #fff;
+    border-color: #2cc9a5
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #58201b;
+    color: #fff;
+    border-color: #58201b
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #2cc9a5;
+    color: #fff;
+    border-color: #2cc9a5
+}
+
+/* BOTAO DO DOWLOAD CV */
+.btn-outline-primary {
+    border: 1px solid #3484bf;
+    color: #3484bf;
+    background: 0 0
+}
+
+.btn-outline-primary:hover {
+    background: #2cc9a5;
+    border-color: #2cc9a5;
+    color: #fff
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    border-color: #58201b;
+    background-color: #58201b;
+    color: #2cc9a5
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(240, 127, 129, .5);
+    box-shadow: 0 0 0 .2rem rgba(240, 127, 129, .5)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: #2cc9a5
+}
+
+.btn-loading {
+    color: transparent
+}
+
+.btn-loading:hover,
+.btn-loading:active,
+.btn-loading:focus {
+    color: transparent
+}
+
+.btn-loading:before {
+    border: 6px solid rgba(255, 255, 255, .5);
+    -webkit-animation: btn-loader 1s linear infinite;
+    animation: btn-loader 1s linear infinite;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-transform-origin: 0%;
+    transform-origin: 0%
+}
+
+@-webkit-keyframes btn-loader {
+    0% {
+        border-color: rgba(255, 255, 255, .9);
+        -webkit-transform: scale(0) translate(-50%);
+        transform: scale(0) translate(-50%)
+    }
+
+    100% {
+        border-color: transparent;
+        -webkit-transform: scale(1) translate(-50%);
+        transform: scale(1) translate(-50%)
+    }
+}
+
+@keyframes btn-loader {
+    0% {
+        border-color: rgba(255, 255, 255, .9);
+        -webkit-transform: scale(0) translate(-50%);
+        transform: scale(0) translate(-50%)
+    }
+
+    100% {
+        border-color: transparent;
+        -webkit-transform: scale(1) translate(-50%);
+        transform: scale(1) translate(-50%)
+    }
+}
+
+mark {
+    background: rgba(240, 127, 129, .8)
+}
+
+section .section-title h2:before {
+    background-color: #3485BF
+}
+
+.owl-nav button span {
+    color: #2cc9a5
+}
+
+.owl-nav button span:hover {
+    color: #2cc9a5
+}
+
+.owl-dots .owl-dot span {
+    background-color: #c98b8c
+}
+
+.owl-dots .owl-dot.active span {
+    background-color: #f07f81
+}
+
+header .site-logo a span {
+    color: #2cc9a5
+}
+
+ul li a:after {
+    background-color: #2cc9a5
+}
+
+ul li a.active {
+    color: #2cc9a5
+}
+
+section.home h1:before {
+    background-color: #2cc9a5
+}
+
+h1 span {
+    color: #2cc9a5
+}
+
+section.about .about-info i {
+    color: #2cc9a5
+}
+
+.service-single .service-icon {
+    color: #2cc9a5
+}
+
+.resume-list h4 {
+    color: #2cc9a5
+}
+
+.skill .progress-bar {
+    background-color: #2cc9a5
+}
+
+.news-item .news-content .news-title .blog-permalink:hover h3 {
+    color: #2cc9a5
+}
+
+.news-item .news-content .news-meta-single span:not(.meta-value) {
+    color: #2cc9a5
+}
+/* cor dos contatos email call visit */
+.contact-icon {
+    color: #2cc9a5
+}
+
+section.facts .fact-single .fact-icon,
+div.section.facts .fact-single .fact-icon {
+    color: #2cc9a5
+}
+
+.btn-video-play {
+    color: #2cc9a5
+}
+
+.testimonial-box .testimonial_icon {
+    color: #2cc9a5
+}
+
+.article-tags .article-tag {
+    color: #f07f81;
+    border: 1px solid #d36d6f
+}
+
+.article-tags .article-tag:hover {
+    color: #fff;
+    background-color: #d36d6f
+}
+
+.article-meta .meta-list li span,
+.article-meta .meta-list li i {
+    color: #2cc9a5
+}
+
+.article-meta .meta-share li a:hover {
+    color: #2cc9a5
+}
+
+.switcher-button {
+    background-color: #2cc9a5
+}
